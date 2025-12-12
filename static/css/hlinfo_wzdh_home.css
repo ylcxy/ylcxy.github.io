@@ -1,0 +1,118 @@
+.cy-logo img{margin: 15px 0;}
+a:hover {
+    color: #f26929 !important;
+}
+a{cursor: pointer;}
+/*search Begin*/
+#cy-search_main{white-space:nowrap;}
+#cy-search_main form{margin:0;padding:0}
+#cy-search_keyword{width:450px;height:40px;line-height:40px;font:18px arial;padding:2px 5px;margin-right:-4px;border:1px solid #38f;outline:0;vertical-align:middle}
+#cy-search_submit{width:80px;height:40px;line-height:40px !important;border:0;color:#fff;background:#38f;font:16px/1.5 Arial,宋体,Helvetica;padding:0 10px;padding-top:3px\9;cursor:pointer;vertical-align:middle}
+.cy-search_logo{height:25px;margin-top:5px;margin-right:5px;border:0;vertical-align:middle;float: left;}
+#cy-search_input{margin: auto;width: 700px;}
+.search-logo-dropdown{margin-right:0px;width:19%;}
+.search-logo-dropdown button{padding: 0;border: 0;font-size: 22px;}
+.search-logo-dropdown button:hover,.search-logo-dropdown button:focus,.search-logo-dropdown button:after,.search-logo-dropdown button:before{background: none !important;border-color: #fff !important;}
+#cy-search_input .dropdown-menu a{display: block;height: 35px;}
+#cy-search_input .dropdown-menu a img{padding-left: 10px;}
+/*search End*/
+			
+.gov {
+    border-bottom: none;
+    position: relative;
+    padding: 0px;
+}
+.gov-news{position: relative;padding-left: 0px;line-height: 29px;}
+.gov-news-title {
+    float: left;
+    width: 45px;
+    height: 47px;
+    background-color: #ff7e00;
+    padding: 4px 15px;
+    color: #fff;
+    margin-right: 15px;
+    line-height: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+}
+.gov-list {
+    padding: 5px 0;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 0;
+}
+.gov-list a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+    color:#000;
+    font: 14px/30px "宋体","Microsoft YaHei",Simsun,arial,tahoma,verdana,sans-serif;
+}
+.hlinfo-dh-main-ul li{width: 148px;height: 38px;color: #6b6b6b}
+.hlinfo-dh-main-ul li a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 24px;
+    color:#6b6b6b;
+    font: 14px/18px "宋体","Microsoft YaHei",Simsun,arial,tahoma,verdana,sans-serif;
+}
+.footer{
+    clear: both;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    padding-bottom: 15px;
+    background: #f7f7f5;
+    color: #666;
+}
+.footer-container {
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-item{
+    border-right: 1px solid #ddd;
+    color: #666;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+.footer-item.last {
+    border-right: 0 none;
+}
+.footer-item.noline{text-decoration: none;cursor: text;}
+.footer-item:hover{color: #666666 !important;}
+.hlinfo-datemain{
+    height: 50px;
+    font: 12px/20px Arial,宋体,Helvetica;
+}
+.hlinfo-datemain span{margin-right: 10px;margin-top: 15px;}
+.hlinfo-emailmain{
+    height: 40px;
+    font: 12px/4.0 Arial,宋体,Helvetica;
+}
+.cy-search-input{position: relative;}
+.hlinfo-search-ipt-hot{position: absolute;z-index: 99;width: 100%;left: 0px;top: 29px;border: 1px solid #c9defb;}
+.hlinfo-search-ipt-hot .list-group-item{border: none;}
+.hlinfo-search-ipt-hot a{color:#000000;}
+.hlinfo-search-ipt-hot a:hover{color:#000000;}
+.hlinfo-search-ipt-hot .list-group-item:hover{background-color: rgb(168,213,252);}
+.cycurrent{background-color: rgb(93, 154, 240);color: #FFFFFF !important;}
+.cy-h60{height:60px !important;}
+.hlinfo-mobile-search{margin-bottom: 10px;}
+.hlinfo-mobile-search .form-control{border: 1px solid #38f;border-radius: 0;}
+.hlinfo-mobile-search .btn{background-color: #38f;border-radius: 0 !important;color: #FFFFFF;}
+.hlinfo-dh-item img{margin-right:5px;vertical-align:text-bottom;width:16px;height:16px;}
+.hlinfo-pdl-0{padding-left: 0px !important;}
+.hlinfo-pdr-0{padding-right: 0px !important;}
+.hlinfo-pdl-10{padding-left: 10px !important;}
+.hlinfo-rightdh-main-ul li{width:70px !important;padding-left: 0 !important;padding-right: 0 !important;}
+.hlinfo-rightdh-main-ul li a{padding-left: 0 !important;}
+
+.cy-upload-ico .layui-upload-img{max-width: 128px !important;}
+

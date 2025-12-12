@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<!-- <base href="https://zz.gznc.edu.cn/xsgl/"/> -->
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>欢迎登录　-　玉之银网址导航，网址收藏专家，您的专属导航，您的导航您做主。</title>
+     <meta name="description" content="玉之银网址导航，网址收藏专家，您的专属导航，您的导航您做主。">
+    <meta name="keywords" content="玉之银网址导航，网址收藏专家，您的专属导航，您的导航您做主。" />
+    <meta name="author" content="呐喊">
+    <link rel="icon" href="favicon.ico.html">
+    <link rel="shortcut icon" href="favicon.ico.html"/>
+    <script>
+        var loginetc = {
+            basePath:"https://hlinfo.cc/",
+            valiDataUrl : "https://hlinfo.cc/home/loginvali.html",
+            redirect_uri:""
+        };
+    </script>
+    <link href="../static/layui/css/layui.css" rel="stylesheet">
+    <style type="text/css">
+       /* *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box} */
+		body{font:12px/150% Arial,Verdana,"宋体"}
+		.img-responsive{display:block;max-width:100%;height:auto}
+		.footer-page{background:#eee;padding:20px;text-align:center;color:#666;border-top:1px solid #ddd;margin-top:20px;padding-bottom:15px;border-bottom:1px solid #ddd}
+		.footer-page a{letter-spacing:1px;padding:10px;color:#666}
+		.footer-page .footer-p{font-size:16px;font-weight:500;font-family:黑体;text-align:left}
+		.footer-page .right-dec{padding-right:0}
+		.footer-page .right-dec div{border-left:1px solid #ddd;min-height:115px;padding-left:20px}
+		.footer-page li,.footer-page ul{text-align:left;padding:0}
+		.footer-page ul{margin-bottom:0;padding-bottom:0}
+		.footer-page li a{padding:0;line-height:1.5em}
+		.nb-b .nb{padding-top:15px}
+		.nb-b .nb .d{margin:0;font-size:15px;font-family:黑体;font-weight:500}
+		.nb-b .nb .b{font-size:12px;color:#6d6d6d}
+		.foot-shop{padding-top:15px;text-align:center;margin-top:15px}
+		.foot-shop .foot-shop-item{color:#666;padding-right:12px;padding-left:10px;border-right:1px solid #ddd;margin:0}
+		.foot-shop p{color:#000;padding:10px 0;clear:both}
+		.foot-shop .foot-shop-item.last{border-right:0}
+		.margin-top-20{margin-top:20px}
+		.padding-left-10{padding-left:10px}
+		.padding-left-15{padding-left:15px}
+		.padding-left-0{padding-left:0}
+		.padding-right-0{padding-right:0}
+		.padding-right-10{padding-right:10px}
+		.padding-right-15{padding-right:15px}
+		.padding-left-20{padding-left:20px}
+		.padding-top-10{padding-top:10px}
+		.margin-left-20{margin-left:20px}
+		.pd-bottom-15{padding-bottom: 15px;}
+		.margin-left-10{margin-left:10px}
+		.padding-right-30{padding-right:30px;padding-left:30px}
+		.padding-right-5{padding-right:5px}
+		.bv-form .help-block{margin-bottom:0}
+		.bv-form .tooltip-inner{text-align:left}
+		.nav-tabs li.bv-tab-success>a{color:#3c763d}
+		.nav-tabs li.bv-tab-error>a{color:#a94442}
+		.bv-form .bv-icon-no-label{top:0}
+		.bv-form .bv-icon-input-group{top:0;z-index:100}
+		.control-label i.red{color:#c00}
+		.mjy-breadcrumb-heading{padding-left:0;padding-right:0}
+		.red{color:#c30}
+		.clear-both{clear:both}
+		.carousel-control{text-shadow:none!important;filter:none!important}
+		.shop-items>li>a{padding-left:8px;padding-right:8px;font-size:16px}
+		@media (min-width:950px){.shop-items>li>a{padding-left:15px;padding-right:15px;font-size:16px}
+		}
+		.page-header{border-bottom:0}
+		.header.navbar{margin-bottom:0}
+		.page-header{margin-top:0}
+		input[type=checkbox]:focus,input[type=radio]:focus{outline:0}
+		#nav-collapse .go-home{line-height:50px;color:#666}
+		#nav-collapse .go-home:hover{color:#c30}
+		.search-key-hot .btn-link{color:#333}
+		.search-key-hot .btn-link:hover{color:#c30}
+		.item-title a{color:#333}
+		.price{font-weight:700}
+		.list-more-bar{padding:0;margin:0;top:-17px;position:relative;text-align:center}
+		.list-more-bar span{background:#ddd;padding:5px;cursor:pointer}
+		.bar-boder-bottom{background-color:#eeefff}
+		.glyphicon-filter{cursor:pointer}
+		.city-bg:hover{text-decoration:none}
+		.city-bg{text-align:center;padding:5px}
+		.city-bg a{color:#333;font-size:12px;text-decoration:none}
+		.city-bg a img{margin:0 auto}
+		.city-bg a:hover{text-decoration:none}
+		.filter-box .list-group-item{padding:0 15px}
+		@media (min-width:800px){.login-box{box-shadow:0 0 35px #888}
+		}
+		@media (min-width:1366px){.footer-container{height:210px}
+		.login-visible-lg{display:block}
+		}
+		@media (max-width:1366px){.footer-container{height:150px}
+		.login-visible-lg{display:none}
+		}
+		.footer-container{background-color:#fff;font-size:14px}
+		.footer-container p{color:#000}
+		.footer-item{border-right:1px solid #ddd;color:#000;margin:0;padding-left:10px;padding-right:12px}
+		.footer-item.last{border-right:0 none}
+		.login-box-main{margin:10px auto;background:url(../static/img/green_bg.png) repeat-x}
+		.login-box-main .login-box{background:#fff;margin-top:38px;margin-bottom:10px;padding-bottom:10px}
+		.login-box-main h2{font-size:20px;font-family:"微软雅黑","microsoft yahei";padding:20px 15px}
+		.margin-top-10{margin-top:10px}
+		#create2code{margin:0 auto}
+		#create2code canvas,#create2code div,#create2code table{width:95%;height:95%;margin:0 auto;overflow:hidden}
+		.margin-top-10{margin-bottom:22px}
+		.tit{font-family:"微软雅黑","microsoft yahei";font-size:31px;font-weight:700;padding:40px 0 40px 15px;line-height:initial}
+		.cy-ad-main{position:relative}
+		.cy-help{position:absolute;top:76px;color:#fff;font-weight:800;font-size:20px;text-shadow:5px 2px 6px #000}
+		.cy-help h2{font-size:30px;margin-top:20px;margin-bottom:10px}
+		.cy-help ul{margin-top:0;margin-bottom:10px;padding-left:45px}
+		.cy-help ul li{list-style:inside;padding:6px 0}
+		.cy-help .underline{text-decoration:underline}
+		.layui-form-item{padding:0 16px!important}
+		.layui-form-pane .layui-form-label{width:60px}
+		.layui-form-pane .layui-input-block{margin-left:60px}
+		.layui-form-checked[lay-skin=primary] i{border-color:#1e9fff;background-color:#1e9fff;color:#fff}
+		#code{width:67%}
+		.pull-right{float:right!important}
+		.btn-link{color:#337ab7;text-decoration:none;margin-top:10px}
+		.img-logo{padding:30px 0!important}
+		.hlinfo-codeimg{cursor: pointer;max-width: 140px;}
+		.layui-input:focus {border-color: #66afe9;outline: 0;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);}
+       	.layui-input:hover {border-color: #66afe9 !important;}
+		@media (max-width:768px){
+			.login-box-main{background:#fff}
+			.login-box-main h2{font-size:16pt}
+			.login-box-main .login-box{margin-top:0}
+			.login-title{border-bottom:1px solid #ddd}
+			#code {width: 60%;}
+		}
+    </style>
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcdn.net/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+        <style>
+        .layui-form-pane .layui-form-label{width:50px;height:22px !important;}
+        .layui-form-pane .layui-input-block{margin-left:0px}
+        .ltie9{display:block !important;}
+         #code{width:50%;}
+         .layui-btn-fluid{width:90%;}
+        </style>
+    <![endif]-->
+</head>
+<body>
+<div class="layui-container">
+        <div class="layui-row login-title">
+            <div class="layui-col-md10 layui-col-sm10 layui-col-xs10">
+                <h1 class="tit">玉之银网址导航</h1>
+            </div>
+        </div>
+    </div>
+    <div class="login-box-main">
+        <div class="layui-container">
+            <div class="layui-row">
+                <div class="layui-col-md8 layui-hide-xs">
+                    <a href="javascript:void(0);"><img src="../static/img/login_bg.png" class="img-responsive" style="margin-top:10px;" alt="玉之银网址导航，网址收藏专家，您的专属导航，您的导航您做主。" /></a>
+                    <div class="cy-help">
+                        <h2><b>操作说明</b></h2>
+                        <div>
+                            <ul>
+                                <li><b>如果是360浏览器、2345浏览器等双核浏览器请切换到极速模式</b></li>
+                                <li><b>推荐使用火狐浏览器</b></li>
+                                <li><b>忘记登录密码请联系管理员重置密码。</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-col-md4 layui-col-sm12 login-box">
+                    <form class="layui-form layui-form-pane form-horizontal" lay-filter="login-form">
+                        <h2 class="cy-h2-text">登录入口</h2>
+                        <div id="login-msg" style="display:none;padding:5px;"></div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">
+	                            <i class="layui-icon layui-icon-user"></i>
+	                            <span class="layui-hide ltie9">账&nbsp;&nbsp;号</span>
+                            </label>
+                            <div class="layui-input-block">
+                                <input type="text" name="userloginid" lay-reqText="请输入账号" lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入账号" id="memberloginid"/>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">
+                                <i class="layui-icon layui-icon-password"></i>
+                               <span class="layui-hide ltie9">登录密码</span>
+                            </label>
+                            <div class="layui-input-block">
+                                <input type="password" name="userloginpwd" lay-reqText="请输入登录密码"  lay-verify="required|passwd" autocomplete="off" class="layui-input" placeholder="请输入密码" id="memberpwd"/>
+                            </div>
+                        </div>
+                        
+                        <div class="layui-row" id="my-vil-code">
+                                <div class="layui-col-xs7 layui-col-sm7 layui-col-md7">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">
+                                            <i class="layui-icon layui-icon-auz"></i>
+                                            <span class="layui-hide ltie9">验证码</span>
+                                        </label>
+                                        <input name="verifycode" maxlength="4" lay-verify="required" lay-reqText="请输入验证码" type="text" autocomplete="off" class="layui-input" placeholder="验证码不区分大小写" id="code"/>
+                                    </div>
+                                </div>
+                                <div class="layui-col-xs5 layui-col-sm5 layui-col-md5">
+                                        <img id="verifycodeimg" src="../captcha.html" data-src="/captcha.html" class="img-responsive pull-left hlinfo-codeimg"/>
+                                </div>
+                        </div>
+                        <div class="layui-row margin-top-10 text-center">
+                            <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 margin-top-10 padding-right-15 padding-left-15">
+                                <button lay-submit="" lay-filter="gotologin" autocomplete="off" class="layui-btn layui-btn-normal layui-btn-fluid" id="login-btn" data-loading-text='登录中...'> 登录 </button>
+                            </div>
+                        </div>
+                         <div class="layui-form-item">
+                              <input type="checkbox" lay-filter="autologin" name="autologin" lay-skin="primary" title="记住登录名">
+                              <a href="javascript:void(0);" id="resetPwd" class="btn-link pull-right" >密码忘了？</a>
+                         </div>
+                        <!-- <div id="login-null" style="padding:17px;"></div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid foot-shop footer-container layui-hide-xs">
+        <p class="login-visible-lg">&nbsp;</p>
+        <p>
+           <a href="../index.html" class="footer-item" rel="noreferrer">系统首页</a>
+           <a href="../index.html" class="footer-item" rel="noreferrer">关于我们</a>
+           <a href="../index.html" class="footer-item" rel="noreferrer">联系我们</a>
+           <a href="../index.html" class="footer-item last" rel="noreferrer">帮助中心</a>
+        </p>
+        <p>Copyright&nbsp;&copy;&nbsp;2025&nbsp;&nbsp;HLINFO.NET&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;</p>
+    </div>
+</body>
+<script type="text/javascript" src="../static/layui/layui.js"></script>
+<script src="../static/js/sm3.min.js%3Fv=20230514"></script>
+<!-- <script src="/static/js/login.js" type="text/javascript"></script> -->
+<script>
+    if(top.location !== self.location) {top.location = self.location;}
+    layui.use(['layer','form'], function(){
+        var layer = layui.layer,
+            $ = layui.$,
+            form = layui.form;
+        var autoLogin=false;
+        var loadindex;
+        if (!!window.ActiveXObject || "ActiveXObject" in window){ 
+            if(document.documentMode && document.documentMode<10){
+                layer.alert("您当前使用的是IE低版本浏览器或者2345、360等双核浏览器兼容模式，为达到更好用户体验，<b style=\"color:red;\">推荐使用火狐浏览器或谷歌浏览器</b>。2345、360等双核浏览器可以切换至极速/超速模式。",{title:'温馨提示',offset: 'rb',shade:false});
+              }
+         }
+         if(window.localStorage){
+              var storage=window.localStorage;
+              var _id=storage.getItem("HLINFO.CC_rememberLoginId");
+             if(typeof(_id)!= "undefined" && _id!=null && _id!=""){
+                 form.val("login-form", {
+                  "autologin": true
+                   ,"username":_id
+                    });
+                autoLogin = true;
+                }
+         }
+
+      form.verify({
+         passwd: [
+              /^[\S]{6,}$/
+              ,'密码必须6位以上，且不能出现空格'
+            ]
+        });
+        form.on('checkbox(autologin)', function(data){
+          autoLogin = data.elem.checked;
+        });
+
+      form.on('submit(gotologin)', function(data){
+            loadindex = layer.load(1, {
+              shade: [0.5,'#fff']
+             });
+            var loginid = data.field.userloginid;
+            var pwdCheck = 0;
+            //var pwdRegex = new RegExp('(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,20}');
+            //var pwdRegex = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[~!@#$%^&*()_+\-={}:";'<>,.\/]).{8,20}$/gm;
+            var pwdRegex = /^(?![A-Za-z]+$)(?!\d+$)(?![\W_]+$)\S{6,20}$/gm;
+            if (!pwdRegex.test(data.field.userpasswd)) {
+                pwdCheck = 1;
+            }
+            var pwd = SM3(data.field.userloginpwd);
+            data.field.userloginpwd = pwd;
+            loginSubmit(data.field);
+          /*$.post("loginVali!access.shtml",{a:Math.random()},function(res){
+              var js = $.parseJSON(res);
+              if(js.success){
+                var pwd=getDataStr(js.msg,data.field.userloginid);
+                var reqdata = {"userPwd":pwd,"loginName":data.field.useraccount,code:data.field.verifycode,f:"1",pwdCheck:pwdCheck};
+                loginSubmit(reqdata);
+              }else{
+                  layer.msg(js.msg,{icon: 2});
+                  layer.close(loadindex);
+                  $("#verifycodeimg").click();
+                  $("#code").val("");
+                  }
+           });*/
+          return false;
+        });
+        function loginSubmit(params){
+            $.ajax({
+                type : "post",
+                url : loginetc.valiDataUrl,
+                data : params,
+                success : function(res, textStatus) {
+                    if (res.success) {
+                        layer.msg(res.msg,{icon: 1});
+                        if(window.localStorage && autoLogin){
+                            var storage=window.localStorage;
+                            storage.setItem("HLINFO.CC_rememberLoginId",params.userloginid);
+                        }
+                        var loctionUrl = loginetc.redirect_uri==""?loginetc.basePath:loginetc.redirect_uri;
+                        if(loctionUrl == loginetc.basePath){
+                            loctionUrl = loctionUrl+res.daohangid;
+                        }
+                        top.location = loctionUrl;
+                    } else {
+                        layer.close(loadindex);
+                        layer.msg(res.msg,{icon: 5});
+                        $("#verifycodeimg").click();
+                        $("#code").val("");
+                    }
+                },
+                error : function(XMLHttpRequest, textStatus) {
+                    layer.close(loadindex);
+                    layer.msg("请求出错，请检查网络",{icon: 2});
+                    $("#verifycodeimg").click();
+                    $("#code").val("");
+                }
+            });
+        }
+        $("#resetPwd").click(function(){
+        	 layer.alert("忘记登录密码请联系管理员重置密码^_^");
+         });
+       $("#verifycodeimg").click(function(){
+            $(this).attr("src",$(this).attr("data-src")+"?ok="+Math.random());
+        });
+       // 网页内按下回车触发
+      var ShowEnterKey = function(e){
+           var currKey = 0, e = e || event;
+           currKey = e.keyCode || e.which || e.charCode;
+
+           if (currKey == 13) {
+               $("#login-btn").click();
+               return false;
+           }
+        }
+       document.onkeydown = ShowEnterKey; 
+       //Go Parent Location
+    });
+</script>
+</html>
